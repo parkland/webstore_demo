@@ -22,7 +22,7 @@ CREATE TABLE products
 (
   prodid INT NOT NULL,
   categoryid INT NOT NULL,
-  name VARCHAR(50) NOT NULL,
+  name VARCHAR(98) NOT NULL,
   description VARCHAR(1000) NOT NULL,
   price NUMERIC(10,2) NOT NULL,
   imagepath VARCHAR(200),
