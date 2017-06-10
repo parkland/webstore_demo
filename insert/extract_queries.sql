@@ -22,7 +22,7 @@ set @row_number = 0;
 
 insert into products (
  select (@row_number:=@row_number + 1) AS num,
-        catid, name, descrip, price, imagepath from (
+        catid, name, descrip, price, FLOOR(2 + (RAND() * 49)), imagepath from (
  select 
         case `Product Category`
               when 'Furniture' then 1
