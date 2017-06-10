@@ -25,6 +25,7 @@ CREATE TABLE products
   name VARCHAR(98) NOT NULL,
   description VARCHAR(1000) NOT NULL,
   price NUMERIC(10,2) NOT NULL,
+  quantity INT NOT NULL DEFAULT 0,
   imagepath VARCHAR(200),
   PRIMARY KEY (prodid),
   FOREIGN KEY (categoryid) REFERENCES categories(categoryid),
