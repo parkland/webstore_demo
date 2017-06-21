@@ -57,7 +57,7 @@ require "load_sql.php";
 			    if ((isset($row['imagepath']) && trim($row['imagepath'])!==='')) {
 				     $image = $row['imagepath'];
 			    }
-                            echo '<div class="product"><img src="../img/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
+                            echo '<div class="product"><img src="../img/'.$image.'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
                         }
 
                         /* free result set */
