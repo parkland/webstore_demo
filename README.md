@@ -1,5 +1,5 @@
 # webstore_demo
-A teaching example that creates and implements an example webstore (uses HTML, CSS, JS, PHP, JQUERY, SQL, ERD)
+A teaching example that creates and implements a faux webstore (uses HTML, CSS, JS, PHP, JQUERY, SQL, ERD)
 
 
 ### What next?
