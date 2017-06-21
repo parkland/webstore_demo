@@ -48,8 +48,8 @@ require "load_sql.php";
             	
                 <?php
 
-			$query = $sqls['select_all_products'];
-			if ($result = $mysqli->query($query)) {
+		   $query = $sqls['select_all_products'];
+		   if ($result = $mysqli->query($query)) {
 
                         /* fetch associative array */
                         while ($row = $result->fetch_assoc()) {
@@ -62,6 +62,7 @@ require "load_sql.php";
 
                         /* free result set */
                         $result->free();
+		   }
 		?>
                 
                 
