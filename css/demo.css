@@ -24,7 +24,7 @@ body{
 }
 
 .top-label{
-	background:url(img/label_bg.png) no-repeat;
+/* 	background:url(../img/label_bg.png) no-repeat; */
 	display:inline-block;
 	margin-left:20px;
 	position:relative;
@@ -51,17 +51,17 @@ body{
 }
 
 .drag-desired{
-	background:url(img/drag_desired_label.png) no-repeat top right;
+	background:url(../img/drag_desired_label.png) no-repeat top right;
 	padding:30px;
 }
 
 .drop-here{
-	background:url(img/drop_here_label.png) no-repeat top right;
+	background:url(../img/drop_here_label.png) no-repeat top right;
 }
 
 
 .bottom-container-border{
-	background:url(img/container_bottom.png) no-repeat;
+	background:url(../img/container_bottom.png) no-repeat;
 	height:14px;
 }
 
@@ -162,7 +162,7 @@ a.button,a.button:visited{
 	text-align:center;
 	text-transform:uppercase;
 	
-	background:url(img/button.png) no-repeat center top;
+	background:url(../img/button.png) no-repeat center top;
 }
 
 a.button:hover{
