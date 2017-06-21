@@ -48,7 +48,7 @@ require "load_sql.php";
             	
                 <?php
 
-		   $query = $sqls['select_all_products'];
+		   $query = $sqls['select_10_products'];
 		   if ($result = $mysqli->query($query)) {
 
                         /* fetch associative array */
