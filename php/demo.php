@@ -115,7 +115,7 @@ require "load_sql.php";
     </div>
 
 	<div class="tutorial-info">	
-    This is a modified copy of a Tutorialzine demo. View the <a href="http://tutorialzine.com/2009/09/shopping-cart-php-jquery/">original tutorial</a>, or download the <a href="demo.zip">demo files</a>.</div>
+    This is a modified copy of a Tutorialzine demo. View the <a href="http://tutorialzine.com/2009/09/shopping-cart-php-jquery/">original tutorial</a>, or download the <a href="https://github.com/parkland/webstore_demo.git">demo files</a>.</div>
 
 </div>
 
