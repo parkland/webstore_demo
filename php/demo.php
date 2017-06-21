@@ -53,7 +53,11 @@ require "load_sql.php";
 
                         /* fetch associative array */
                         while ($row = $result->fetch_assoc()) {
-                            echo '<div class="product"><img src="img/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
+			    $image = "no-image-icon-15.png";
+			    if ( (isset($row['img']) && trim($row['img'])!==='') {
+				     $image = "$row['img'];
+			    }
+                            echo '<div class="product"><img src="../img/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
                         }
 
                         /* free result set */
