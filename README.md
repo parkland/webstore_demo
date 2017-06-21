@@ -9,6 +9,6 @@ start with php/demo.php, the main page
 http://www.csit.parkland.edu/~cschultz/webstore_demo/php/demo.php
 
 ### Credits
-I used resources and ideas from the following:
+I used resources and ideas from the following: <br>
 https://community.tableau.com/docs/DOC-1236 <br>
 https://tutorialzine.com/2009/09/shopping-cart-php-jquery <br>
