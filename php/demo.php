@@ -2,6 +2,7 @@
 
 define('INCLUDE_CHECK',1);
 require "connect.php";
+require "load_sql.php";
 
 ?>
 
@@ -47,13 +48,17 @@ require "connect.php";
             	
                 <?php
 
-				$result = mysql_query("SELECT * FROM internet_shop");
-				while($row=mysql_fetch_assoc($result))
-				{
-					echo '<div class="product"><img src="img/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
-				}
+			$query = $sqls['select_all_products'];
+			if ($result = $mysqli->query($query)) {
 
-				?>
+                        /* fetch associative array */
+                        while ($row = $result->fetch_assoc()) {
+                            echo '<div class="product"><img src="img/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
+                        }
+
+                        /* free result set */
+                        $result->free();
+		?>
                 
                 
        	        <div class="clear"></div>
