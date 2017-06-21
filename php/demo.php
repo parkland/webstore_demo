@@ -87,8 +87,8 @@ require "load_sql.php";
     
     		<div class="content drop-here">
             	<div id="cart-icon">
-	            	<img src="img/Shoppingcart_128x128.png" alt="shopping cart" class="pngfix" width="128" height="128" />
-					<img src="img/ajax_load_2.gif" alt="loading.." id="ajax-loader" width="16" height="16" />
+	            	<img src="../img/Shoppingcart_128x128.png" alt="shopping cart" class="pngfix" width="128" height="128" />
+					<img src="../img/ajax_load_2.gif" alt="loading.." id="ajax-loader" width="16" height="16" />
                 </div>
 
 				<form name="checkoutForm" method="post" action="order.php">
