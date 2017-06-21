@@ -12,7 +12,7 @@ require "load_sql.php";
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Webstore Demo | learning javascript, sql, and php</title>
 
-<link rel="stylesheet" type="text/css" href="demo.css" />
+<link rel="stylesheet" type="text/css" href="../css/demo.css" />
 
 <!--[if lt IE 7]>
 <style type="text/css">
