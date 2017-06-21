@@ -4,3 +4,4 @@ UPDATE products SET imagepath='iMac.png' WHERE prodid%6 = 2;
 UPDATE products SET imagepath='iPhone.png' WHERE prodid%6 = 3;
 UPDATE products SET imagepath='iPod.png' WHERE prodid%6 = 4;
 UPDATE products SET imagepath='iPod-Nano.png' WHERE prodid%6 = 5;
+update products set imagepath = '' where name = '3M Polarizing Light Filter Sleeves';
