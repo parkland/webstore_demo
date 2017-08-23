@@ -6,7 +6,7 @@ A teaching example that creates and implements a faux webstore (uses HTML, CSS, 
 start with php/demo.php, the main page
 
 ### "work in progress" demo site
-http://www.csit.parkland.edu/~cschultz/webstore_demo/php/demo.php
+http://onyx.csit.parkland.edu/~cschultz/webstore_demo/php/demo.php
 
 ### Credits
 I used resources and ideas from the following: <br>
