@@ -2,6 +2,11 @@
 
 if(!defined('INCLUDE_CHECK')) die('You are not allowed to execute this file directly');
 
+/*
+note that PHP 5.* has an issue with the mysqli libraries such that it attempts the IPv6 interface first. 
+If you are experiencing long tmies to query the database, 
+I suggest you use IP numbers here for the host. 
+*/
 
 /* Database config */
 
