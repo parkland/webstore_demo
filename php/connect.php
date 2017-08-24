@@ -19,6 +19,12 @@ $db_database = '';
 /* End config */
 
 $mysqli = new mysqli($db_host,$db_user,$db_pass,$db_database,$db_port) or die('Unable to establish a DB connection');
+/* check connection */
+if ($mysqli->connect_errno) {
+    printf("Connect failed: %s\n", $mysqli->connect_error);
+    exit();
+}
+
 $mysqli->query("SET names UTF8");
 
 ?>
