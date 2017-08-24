@@ -10,7 +10,7 @@ function get_products($mysqli, $sqls) {
       if ((isset($row['imagepath']) && trim($row['imagepath'])!=='')) {
         $image = "products/".$row['imagepath'];
       }
-      echo '<div class="product"><img src="../img/'.$image.'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
+      echo '<div class="product"><b>'.$row['name'].'</b><br><img src="../img/'.$image.'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" /></div>';
     }
   }
 
